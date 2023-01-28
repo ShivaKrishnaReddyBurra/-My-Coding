@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+  printf("Wlecome to My-Coding");
+  return 0;
+}
+ 
