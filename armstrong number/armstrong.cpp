@@ -4,8 +4,8 @@
 int main()
 {
 	int rem,num,result,temp;
-	printf("Enter the three digit number : ");
-	scanf("%d",&num);
+	pf("Enter the three digit number : ");
+	sf("%d",&num);
 	temp=num;
 	result=0;
 	while(num!=0)
@@ -15,9 +15,9 @@ int main()
 		result+=rem*rem*rem;
 	}
 	if(temp==result)
-		printf("The given %d number is an armstrong number",temp);
+		pf("The given %d number is an armstrong number",temp);
 	else 
-		printf("the given %d number is not a armstrong number",temp);
+		pf("the given %d number is not a armstrong number",temp);
 		
 		return 0;
 	
