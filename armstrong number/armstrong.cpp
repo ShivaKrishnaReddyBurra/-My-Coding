@@ -17,7 +17,7 @@ int main()
 	if(temp==result)
 		pf("The given %d number is an armstrong number",temp);
 	else 
-		pf("the given %d number is not a armstrong number.",temp);
+		pf("the given %d number is not a armstrong number..",temp);
 		
 		return 0;
 	
