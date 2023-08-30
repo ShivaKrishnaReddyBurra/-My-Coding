@@ -16,7 +16,7 @@ int main()
   		if(n2>n3)
     		printf("%d is the largest number..",n2);
   		else
-    		printf("%d is the largest number.",n3);
+    		printf("%d is the largest number..",n3);
 	}
 		return 0;
 		
